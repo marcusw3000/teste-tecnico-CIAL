@@ -2,6 +2,12 @@
 
 Este projeto contém um conjunto de testes automatizados utilizando o Cypress, voltados para garantir a funcionalidade adequada de endpoints de uma API RESTful e a verificação de elementos de front-end. Os testes estão organizados em dois arquivos principais: testeBackEnd.cy.js e testeFrontEnd.cy.js.
 
+## Tecnologias utilizadas
+
+**Framework de testes:** Cypress
+
+**Outras:** Node, Docker
+
 ## Estrutura dos arquivos
 
 1. testeBackEnd.cy.js
