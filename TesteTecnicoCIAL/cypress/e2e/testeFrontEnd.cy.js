@@ -135,7 +135,7 @@ describe('Teste de Front-End DropDown', () => {
     cy.get('#dropdown').select('Option 1')
       .should('have.value', '1')
   });
-  it('Deve selecionar a opção 1', () => {
+  it('Deve selecionar a opção 2', () => {
     cy.log('Visita o site')
     cy.visit(webPage)
 
