@@ -98,3 +98,13 @@ npx cypress run
 Identifiquei que os testes de Back-end as vezes retornam testes negativos devido a um problema de rota entre os servidores e os requests. Caso isso aconteça, por favor, desconsidere o teste e execute novamente.
 
 ## Evidências
+
+Teste de Back-end
+
+![image](https://github.com/user-attachments/assets/c5b211e7-ec43-4169-a0cd-d546d71100c7)
+
+
+Teste de Front-end
+
+![image](https://github.com/user-attachments/assets/cf9e1959-8aff-4878-9a43-04c74e4172e5)
+
