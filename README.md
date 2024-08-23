@@ -58,7 +58,7 @@ Este arquivo é focado nos testes de front-end, onde o Cypress interage com a in
 
   Teste de Front-End DropDown
      Deve selecionar a opção 1
-     Deve selecionar a opção 1
+     Deve selecionar a opção 2
 
   Teste de Front-end Upload File
      Deve fazer upload de uma imagem
@@ -142,5 +142,6 @@ Teste de Back-end
 
 Teste de Front-end
 
-![image](https://github.com/user-attachments/assets/cf9e1959-8aff-4878-9a43-04c74e4172e5)
+![image](https://github.com/user-attachments/assets/7eb7f92d-e968-40ae-91a6-941def207a81)
+
 
