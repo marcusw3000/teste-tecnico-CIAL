@@ -72,6 +72,27 @@ Este arquivo é focado nos testes de front-end, onde o Cypress interage com a in
      Deve clicar no link e no subsequente e redirecionar para mensagem de status 404
      Deve clicar no link e no subsequente e redirecionar para mensagem de status 500
 ```
+
+## Estrutura do Dockerfile
+
+```
+FROM cypress/included:13.12.0
+
+RUN mkdir /testeTecnico
+
+WORKDIR /testeTecnico
+
+COPY ./package.json .
+COPY ./cypress.json .
+COPY ./cialLogo.jpg .
+COPY ./testePratico.pdf ./
+RUN npm install
+
+COPY . .
+
+CMD ["npx", "cypress", "run"]
+```
+
 ## Instalação
 
 1-Clone este repositório.
@@ -91,6 +112,15 @@ npx cypress open
 4-Alternativamente, você pode executar os testes em modo headless com:
 ```
 npx cypress run
+```
+
+## Arquivos necessários
+
+Os arquivos listados abaixo, localizados na pasta raiz, são essenciais para a execução dos testes e, portanto, são imprescindíveis.
+
+```
+cialLogo.jpg
+testePratico.pdf
 ```
 
 ## Notas Adicionais
